@@ -1,0 +1,28 @@
+/* CSS Document */
+
+body,div,dl,dd,ul,li,h1,h2,h3,h4,h5,a,input,form,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+    text-decoration:none;
+    display:block; 
+	color:#fff;
+}
+img{
+    border:none;
+    display:block;
+}
+.clearfloat{
+    zoom:1;
+}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
